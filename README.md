@@ -152,6 +152,10 @@ O arquivo `dados_do_perfil.txt` contém informações públicas do perfil, como 
 
 ---
 
+<img width="752" height="784" alt="image" src="https://github.com/user-attachments/assets/d7ca8be2-9003-4e07-bfad-2fc145342c77" />
+
+---
+
 ## 🧪 Testes
 
 Execute a suíte de testes automatizados com:
