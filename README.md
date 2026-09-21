@@ -71,7 +71,7 @@ If PowerShell blocks the virtual environment activation, you can install the dep
 
 ### Graphical Interface
 
-Double-click `abrir_interface.bat` or run:
+Double-click `open_interface.bat` or run:
 
 ```powershell
 .\.venv\Scripts\python.exe interface.py
@@ -92,37 +92,37 @@ Browser login is the recommended option. When using Brave, the app opens a separ
 Download public content from a profile:
 
 ```powershell
-python baixar_perfil.py username
+python download_profile.py username
 ```
 
 Download multiple profiles:
 
 ```powershell
-python baixar_perfil.py @profile1 https://www.instagram.com/profile2/
+python download_profile.py @profile1 https://www.instagram.com/profile2/
 ```
 
 Download all available content using a browser session:
 
 ```powershell
-python baixar_perfil.py target_profile --navegador brave --completo
+python download_profile.py target_profile --navegador brave --completo
 ```
 
 You can also log in with your Instagram account. The password will be requested without being displayed in the terminal:
 
 ```powershell
-python baixar_perfil.py target_profile --login your_account --completo
+python download_profile.py target_profile --login your_account --completo
 ```
 
 Update an existing download and choose a different output folder:
 
 ```powershell
-python baixar_perfil.py target_profile --navegador brave --completo --atualizar --saida D:\Instagram
+python download_profile.py target_profile --navegador brave --completo --atualizar --saida D:\Instagram
 ```
 
 See all available options:
 
 ```powershell
-python baixar_perfil.py --help
+python download_profile.py --help
 ```
 
 ---
