@@ -146,6 +146,10 @@ The `dados_do_perfil.txt` file contains public profile information such as the d
 
 ---
 
+<img width="754" height="783" alt="image" src="https://github.com/user-attachments/assets/aea6270c-2b61-473e-90d6-07aff7bf462d" />
+
+---
+
 ## 🧪 Tests
 
 Run the automated test suite with:
